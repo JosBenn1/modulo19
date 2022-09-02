@@ -1,2 +1,2 @@
 Django>=3.0,<=3.1
-django-ckeditor==6.4.0
+ckeditor==6.4.0
