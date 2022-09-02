@@ -1,0 +1,27 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block title %}Inicio{% endblock %}
+
+{% block content %}
+<section class="page-section about-heading">
+    <div class="container">
+      <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="{% static 'core/img/hermosa.jpg' %}" alt="">
+      <div class="about-heading-content mbtm">
+        <div class="row">
+          <div class="col-xl-9 col-lg-10 mx-auto">
+            <div class="bg-faded rounded p-5 forced">
+              <h2 class="section-heading mb-4">
+                <span class="section-heading-lower"></span>Metas: ¿Hasta dónde quiero llegar?
+              </h2>
+              <div class="section-content">
+                  <p align="justify">Quiero llegar hasta donde sea posible hacerle ver e informar a los jóvenes que un noviazgo sin violencia es mejor y más bonito. Me gustaría poder erradicar la violencia durante el noviazgo, que un joven se sienta con libertad de poder tener pareja y que eso no sea motivo para dejar de hacer lo que les gusta, una pareja es un apoyo no un limitante para hacer lo que se quiere y desea.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}

@@ -1,0 +1,45 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block title %}Inicio{% endblock %}
+
+{% block content %}
+     <!-- Cabecera -->
+     <section class="page-section clearfix">
+        <div class="container">
+          <div class="intro">
+            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{% static 'core/img/violenciamujer.jpg' %}" alt="">
+            <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+              <h2 class="section-heading mb-4">
+                <span class="section-heading-lower">¡Si te quiere no te pega!</span>
+              </h2>
+              <p class="mb-3">Disminuir la violencia durante el noviazgo ya que esta suele ser la mejor y promete ser de lo mas tierna y dulce la cual termina siendo la primera mala experiencia que se tiene como adolescente.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <!-- Mensaje -->
+      <section class="page-section cta">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-9 mx-auto">
+              <div class="cta-inner text-center rounded">
+                <h2 class="section-heading mb-4">
+                  <span class="section-heading-upper">Tipos de violencia</span>
+                </h2>
+                <p class="mb-0">
+                    <li>Maltrato físico</li>
+                    <li>Maltrato psicológico</li>
+                    <li>Maltrato emocional</li>
+                    <li>Maltrato sexual</li>
+                    <li>Maltrato económico y patrimonial</li>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+{% endblock %}
